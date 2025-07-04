@@ -1,0 +1,566 @@
+.Whole-container{
+    overflow: hidden;
+    width: 100%;
+}
+.container{
+   
+    height: 700px;
+
+}
+.First-Navbar{
+display: flex;
+background-color: black;
+color: white;
+justify-content: space-around;
+
+}
+.ShopNow{
+    color: white;
+}
+.countries{
+    border: none;
+    background-color: black;
+    color: white;
+    margin-top: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0%;
+
+}
+.para{
+gap: 20px;
+font-family: Poppins;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0%;
+width: 474;
+height: 18;
+
+
+}
+
+
+/* Second NavBar */
+.Second-Navbar{
+    display: flex;
+
+
+}
+/* Class First-portion */
+.First-portion{
+    display: flex;
+}
+.h1{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.home{
+    margin-top: 15px;
+    display: flex;
+    /* flex-direction: row; */
+    gap: 60px;
+
+}
+.home ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    gap: 30px;
+}
+.home ul li a {
+    text-decoration: none;
+    color: black;
+}
+.home ul li{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+/* Class Second-Portion*/
+.second-portion{
+    display: flex;
+    display: flex;
+    width: 5px;
+    font-size: 10px;
+    margin-top: 18px;
+     gap: 20px;
+     margin-left: 170px;
+
+    
+}
+.heart{
+    margin: 15px;
+    
+    
+}
+.cart{
+    margin-top:8px;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    width: 250px;
+
+    height: 40px;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin-top: 5px;
+    gap: 34px;
+    background: rgba(245, 245, 245, 1);
+
+}
+.search{
+    background: transparent;
+    height: 0 10px;
+    margin-bottom: 5px;
+}
+
+
+.heart-cart{
+    display: flex;
+    width: 3px;
+
+    font-size: 15px;
+}
+.nav-toggle{
+    display: none;
+}
+/* class Sidebar */
+.sidebar{
+    display: flex;
+    height: 60px;
+    padding: 0 10px;
+}
+.side{
+    width: 200px;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+.side ul{
+    list-style-type:none;
+}
+.side ul li {
+    margin-bottom: 25px;
+    text-decoration: none;
+    
+}
+.side ul li a{
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    
+}
+
+
+.bar{
+    display: flex;
+    width: 850px;
+    height: 400px;
+    margin-right: 190px;
+    /* margin-left: 50px; */
+    background-color: black;
+    justify-content: space-around;
+}
+.phone{
+    background-color: black;
+
+}
+.contant{
+    display: flex;
+    /* align-items: center; */
+    margin-top: 40px;
+    margin-left: 190px;
+    gap: 15px;
+}
+
+.logo-para{
+    
+    color: white;
+
+} 
+.logo-para p{
+    font-weight: 600px;
+}
+.contant-data{
+    flex-direction: column;
+}
+.up-to{
+    color: white;
+    font-size: 40px;
+     size: 48px
+}
+.shop{
+    font-size: 30px;
+    list-style-type: none;
+    color: white;
+}
+
+
+
+/* Container2 */
+.container2{
+    /* background-color: rgb(141, 135, 135); */
+    height: 520px;
+    width: 1250px;
+    margin-left: 95px;
+}
+.section1{
+    
+    /* background-color:rgb(164, 80, 80) ; */
+    width: 99%;
+    height: 120px;
+}
+
+.today{
+    display: flex;
+}
+.todays-color{
+    border-radius: 5px;
+    background: rgba(219, 68, 68, 1);
+    width: 20px;
+    height: 50px;
+}.todays-para{
+    color: rgba(219, 68, 68, 1);
+    font-size: 20px;
+    margin-top: 15px;
+}
+.flash-sales{
+    display: flex;
+    font-weight: 600;
+}
+.arrow{
+    display: flex;
+    margin-top: 12px;
+    margin-left: 990px;
+}
+
+
+.section2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box{
+    border:2px solid rgba(245, 245, 245, 1);
+    /* background-color: cadetblue;
+    color: cadetblue; */
+    width:300px;
+    height: 350px;
+}
+
+.discount{
+    border-radius: 5px;
+    font-size: 12px;
+    margin:12px;
+    background: rgba(219, 68, 68, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.watch-later{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    float: right;
+    margin: 15px;
+}
+.heart1{
+    cursor: pointer;
+    width: 20px;
+
+}
+.eye1{
+    width: 30px;
+    margin-right: 5px;
+}
+
+.red-controler{
+    cursor: pointer;
+    width: 172px;
+    height: 152px;
+    margin-left: 30px;
+ 
+}
+.inner-box{
+    background-color: rgba(245, 245, 245, 1);
+}
+  .product {
+    background-color: rgba(219, 68, 68, 1);
+    color: white;
+    display: block;
+    margin: 25px 620px;
+    border: none;
+    padding: 20px 50px;
+    cursor: pointer;
+  }
+
+
+
+/* container 3 */
+.container3{
+    height: 400px;
+}
+
+.container3-section2{
+    flex-wrap: wrap;
+    display: flex;
+    /* width: 80%; */
+    height: 200px;
+    justify-content: space-between;
+}
+.container3-box{
+    display: flex;
+    flex-direction: column;
+    border:2px solid rgba(245, 245, 245, 1);
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    margin-top: 10px;
+}
+.container3-box a{
+text-decoration: none;
+list-style-type: none;
+color: black
+}
+
+.btn1{
+    margin-top: 12px;
+    margin-left: 750px;
+    background-color: rgba(219, 68, 68, 1);
+    color: white;
+    display: block;
+    /* margin: 20px auto; */
+    border: none;
+    padding: 20px 50px;
+    cursor: pointer;
+
+}
+
+
+.container5{
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+
+
+/* .container 6  */
+.bar1{
+    display: flex;
+    width: 1240px;
+    height: 400px;
+    margin-right: 100px;
+    margin-left: 95px;
+    background-color: black;
+    justify-content: space-around;
+}
+.container6{
+    margin-left: 95px;
+    margin-top: 150px;
+}
+
+/* .container 7 */
+.container7{
+    margin-left: 95px;
+    margin-top: 100px;
+}
+
+.box1{
+    display: flex;
+    width: 1260px;
+    justify-content: space-between;
+}
+.boxes1{
+
+    background-color: black;
+    background-image: url(./playstation.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+
+    background-size: 70%;
+    width: 49%;
+    height: 700px;
+
+}
+
+.boxes1 h2{
+    font-family: semiBold;
+    font: inter;
+    font-weight: 600;
+    color: white;
+}
+.boxes1 p{
+    margin: 0%;
+    color: white;
+}
+.boxes1 a{
+    margin-top: 30px;
+    /* list-style-type: none; */
+    color:white ;
+}
+.boxes-contant{
+margin-top: 500px;
+margin-left: 100px;
+}
+.boxes2{
+    width: 49%;
+    height: 700px;
+
+    
+}
+.boxes-small-1{
+    background-color:black;
+    background-image: url(./woman.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+   
+    width: 100%;
+    height: 300px;
+}
+.boxes-small-outer{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.boxes-small-inner-1{
+
+    background-color:black;
+    background-image: url(./speaker1.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 290px;
+    height: 370px;
+    background-color: black
+}
+
+.boxes-small-inner-2{
+    
+    background-color:black;
+    background-image: url(./perfume.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: right;
+
+    border: 2px solid black;
+    width: 290px;
+    height: 367px;
+    
+}
+
+.boxes-small-1 h2{
+ 
+    color: white;
+}
+.boxes-small-1 p{
+    color: white;
+}
+.boxes-small-1 a{
+    color: white;
+}
+
+.inner-content{
+    margin-left: 30px;
+    margin-top: 210px;
+    color: white;
+}
+.boxes-small-outer{
+    flex-wrap: wrap
+}
+
+
+
+/* container8 */
+.container8{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 300px;
+    width: 900px;
+    height: 180px;
+    justify-content: space-around;
+}
+
+.delivery{
+    width: 300px;  
+}
+.service{
+        width: 300px;
+}
+.gurante{
+  
+    width: 250px;
+}
+
+
+/* container 9 */
+.container9{
+   margin-top: 40px;
+    background-color: black;
+    width: 100%;
+    height: 320px;
+}
+.footer{
+ display: flex;
+    justify-content: space-around;
+    flex-wrap:wrapwi ;
+}
+
+.subscribe{
+    color: white;
+}
+
+.footer-support{
+    color: white;
+
+}
+.account{
+    color: white;
+
+}
+.account p a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+
+}
+
+.quick{
+    color: white;
+
+}
+.quick p a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+
+}
+
+.lower-footer{
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid rgb(42, 38, 38);
+    color: rgb(56, 45, 45);
+}
+
+.burger{
+    width: 35px;
+    height: 35px;
+    /* margin-top: 8px; */
+    margin-left: 300px;
+    display: none;
+
+} 
+
+
+

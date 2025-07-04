@@ -1,0 +1,11 @@
+ 
+.info-account {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.info-account img{
+    
+    border-radius: 50%;
+    background-color: rgba(219, 68, 68, 1);
+}

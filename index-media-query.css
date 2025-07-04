@@ -1,0 +1,149 @@
+
+@media only screen and (max-width: 400px) {
+    hr{
+    display: none;
+    }
+    .arrow{
+        display: none;
+    }
+    .home{
+        display: none;
+    }
+    .btn1{
+        display: none;
+    }
+    .First-Navbar{
+        display: none;
+    }
+    .second-portion{
+        display: none;
+    }
+    .side{
+        display: none;
+    }
+    .product{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+  
+    .bar{
+      width: 330px;
+        flex-direction: column;
+    }
+    .phone{
+        width: 330px;
+    }
+    .contant{
+        margin: inherit;
+        flex-direction: none;
+    }
+    
+    .nav-toggle{
+        display: block;
+    }
+ 
+    .container2{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+ 
+    .logo-para{
+        margin-left: 10px;
+    }
+
+   .section2{
+    flex-direction: column ;
+    }
+
+    .container3{
+        margin-top: 1100px;
+    }
+    .container3-section2{ 
+        width: 27%;
+    }
+    .container4 {
+        margin-top: 240px;
+    }
+    .container5{
+       margin-top: 1100px;
+    }
+  
+    .bar1{
+        margin-left: 10px;
+        width: 330px;
+        flex-direction: column;
+    }
+    .contant1{
+        margin: initial;
+    }
+    .black-speaker{
+        width: 300px;
+    }
+
+    .container6{
+        margin-top: 200px;
+    }
+
+    .container7 {
+        flex-direction: column;
+        margin-top: 1800px;
+        margin-left: 0px;
+       
+    }
+    .box1{
+        margin-top: 70px;
+        flex-direction: column;
+    }
+    .boxes1{
+       width: 330px;
+       height: 500px;
+    }
+    .boxes-contant {
+        margin-left: 0px;
+        margin-top: 330px;
+    }
+    .boxes2{
+        margin-top: 5px;
+    }
+    .boxes-small-1 {
+        width: 330px;
+    }
+    .collect-content{
+        margin-left: 0px;
+    }
+    .collect{
+        margin-left: 0%;
+    }
+    .boxes-small-outer{
+    width: 330px;
+    gap: 10px;
+    justify-content: center;
+}
+    .container8{
+        flex-direction: column;
+        margin-top: 450px;
+        margin-left: 10px;
+    }
+    .delivery{
+        margin-left: 10px;
+    }
+    .service{
+        margin-left: 5px;
+    }
+    .gurante{
+        margin-left: 40px;
+    }
+    .container9{
+        margin-top: 370px;
+        overflow: hidden;
+        height: 400px;
+    }
+    .footer{
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+}
