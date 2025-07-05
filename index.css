@@ -52,6 +52,7 @@ height: 18;
 /* Class First-portion */
 .First-portion{
     display: flex;
+    position: relative;
 }
 .h1{
     margin-right: 100px;
@@ -271,7 +272,7 @@ height: 18;
     float: right;
     margin: 15px;
 }
-.heart1{
+.heart1{ 
     cursor: pointer;
     width: 20px;
 

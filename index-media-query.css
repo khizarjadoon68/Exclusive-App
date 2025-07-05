@@ -6,9 +6,6 @@
     .arrow{
         display: none;
     }
-    .home{
-        display: none;
-    }
     .btn1{
         display: none;
     }
@@ -27,9 +24,31 @@
     .logo{
         display: none;
     }
-  
+
+    .First-portion{
+    overflow: initial;
+    }
+    
+    .home{
+        position: absolute; 
+        width: 150px;
+        height: 200px;
+        padding: 10px ;
+        margin-left: -200px;
+        background-color: white; 
+  }
+    .home ul{
+        
+        flex-direction: column;  
+    }
+    .home.active{
+        margin-top: 48px;
+        margin-left: 10px;
+
+    }
+
     .bar{
-      width: 330px;
+        width: 330px;
         flex-direction: column;
     }
     .phone{
