@@ -1,0 +1,494 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+
+
+<body>
+    <div class="Whole container">
+
+        <!-- container  -->
+        <div
+            class="nav-dialog flex sm:flex container top-nabar overflow-hidden items-center w-full h-6 justify-around bg-black">
+            <p class="text-[8px] text-white sm:text-xs sm:ml-10  ">Summer Sale for All Swim Suit And free Express
+                Delivery -
+                OFF 50%!
+                <a class="font-bold ml-3" href="#">ShopNow</a>
+            </p>
+            <select class="text-xs items-center bg-black text-white block border-gray-300 rounded">
+                <option>English</option>
+                <option>Franch</option>
+                <option>Chiness</option>
+            </select>
+        </div>
+        <div class="md:flex md:justify-between md:items-center w-full flex justify-between md:mt-5">
+            <div class="flex items-center md:items-center justify-around px-4 py-4 sm:px-10 md:w-full ">
+                <div class="">
+                    <h1 class="font-bold text-2xl">Exclusive</h1>
+                </div>
+
+                <div class="flex items-center space-x-3 sm:hidden">
+                    <div class="ml-5 flex items-center bg-[rgba(245,245,245,1)] rounded-xl px-3 py-1">
+                        <input class="ml-3 bg-transparent text-sm w-22 focus:outline-none" type="search"
+                            placeholder="Search">
+                        <img class="w-4 h-4" src="./img/search.png" alt="">
+                    </div>
+                    <a href="#"><img class="w-5 h-5 ml-5" src="./img/heart.png" alt="heart"></a>
+                    <a href="#"><img class="w-6 h-6 ml-4" src="./img/Cart.png" alt="cart"></a>
+                </div>
+
+
+                <div class="relative">
+                    <button class="md:hidden" onclick="toggleMenu()">
+                        <ion-icon class="ml-5 text-3xl" name="menu-outline"></ion-icon>
+                    </button>
+                    <div id="mobileMenu"
+                        class="absolute right-0 mt-2 bg-white shadow-lg rounded-lg py-2 w-40 hidden z-50">
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Home</a>
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Contact</a>
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">About</a>
+                        <a href="#" class="block px-4 py-2 hover:bg-gray-100">Sign In</a>
+                    </div>
+                </div>
+
+                <div class="">
+                    <ul class="hidden sm:flex gap-8 items-center">
+                        <li class="hover:text-gray-400"><a href="#">Home</a></li>
+                        <li class="hover:text-gray-400"><a href="#">Contact</a></li>
+                        <li class="hover:text-gray-400"><a href="#">About</a></li>
+                        <li class="hover:text-gray-400"><a href="#">Sign In</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="hidden sm:flex items-center space-x-4">
+                    <div class="flex bg-[rgba(245,245,245,1)] rounded-xl flex-1 max-w-xl px-4 py-2">
+                        <input class="flex-1 bg-transparent outline-none" type="search"
+                            placeholder="What are you looking for">
+                        <img class="w-5 h-5 ml-2" src="./img/search.png" alt="">
+                    </div>
+                    <a href="#"><img class="w-5 h-5" src="./img/heart.png" alt="heart"></a>
+                    <a href="#"><img class="w-7 h-7" src="./img/Cart.png" alt="cart"></a>
+                </div>
+            </div>
+
+        </div>
+
+        <hr class="">
+
+        <!-- sidebar  -->
+
+        <div class="mt-5 md:flex md:mt-5">
+            <div class="">
+                <div class="md:mt-7 md:ml-28">
+                    <ul class="flex flex-wrap gap-5 md:flex-col ml-5">
+                        <li class=""><a class="hover:text-gray-400" href="#">Women's Fashion</a></li>
+                        <li class="md:mt-2"><a class="hover:text-gray-400" href="#">Men's Fashion</a></li>
+                        <li class="md:mt-2"><a class="hover:text-gray-400" href="#">Electronics</a></li>
+                        <li class="md:mt-2"><a class="hover:text-gray-400" href="#">Home & Lifestyle</a></li>
+                        <li class="md:mt-2"><a class="hover:text-gray-400" href="#">Medicine</a></li>
+                        <li class="md:mt-2"><a class="hover:text-gray-400" href="#">Sports & Outdoors</a></li>
+                        <li class="md:mt-2"><a class="hover:text-gray-400" href="#">Baby & Toys</a></li>
+                        <li class="md:mt-2"><a class="hover:text-gray-400" href="#">Groceries & Pets</a></li>
+                        <li class="md:mt-2"><a class="hover:text-gray-400" href="#">Health & Beauty</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex mt-7">
+                <div
+                    class="flex sidebar-content flex-col justify-center  bg-black text-white  md:ml-20 w-105 h-50 md:h-110">
+                    <div class="ml-8 md:ml-25">
+                        <p class="flex items-center "><img class="w-7" src="./img/Iphone-logo.png" alt=""><span
+                                class="m-4 mt-5 text-[13px]">iPhone
+                                14
+                                series</span>
+                        </p>
+                        <h1 class="font-bold text-[1.5rem] md:text-[2.5rem]">Up To 100% <br>Off voucher</h1>
+                        <a class=" flex items-center mt-4 md:mt-10" href="#">Shop Now
+                            <img class="ml-4" src="./img/sidebar-arrow-right.png" alt="arrow">
+                        </a>
+                    </div>
+
+                </div>
+                <div class="sidebar-img bg-black">
+                    <img class="h-50 md:h-110" src="./img/Iphone-img.png" alt="iphone">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- container1  -->
+        <div class="container1 mt-10 md:ml-28 md:mt-20">
+            <div class="box flex ">
+                <div class="bg-[rgba(219,68,68,1)] ml-3 w-5 h-13 rounded-xl"></div>
+                <div class="items-center justify-center">
+                    <h1 class="ml-4 mt-3.5 text-[rgba(219,68,68,1)]">Today's</h1>
+                </div>
+                <div class="flex ml-45 gap-3 md:ml-280 ">
+                    <button class="cursor-pointer"> <img class="w-10 h-10" src="./img/Left Arrow.png" alt=""></button>
+                    <button class="cursor-pointer"><img class="w-10 h-10" src="./img/Right Arrow.png" alt=""></button>
+                </div>
+            </div>
+
+            <h1 class=" text-[1.5rem] md:text-[2rem] font-bold ml-4">Flash Sales</h1>
+
+            <div class="container1-box w-full h-80 flex flex-wrap mt-5 justify-around">
+                <div class="border-3 border-[#F5F5F5] mt-2 w-45 h-65 md:h-73 md:w-62 justify-between items-center">
+
+                    <div class="flex ">
+                        <div class="">
+                            <button
+                                class="cursor-pointer ml-2 mt-2 bg-[rgba(219,68,68,1)] border-none  w-12 rounded-xs text-white">-40%</button>
+                        </div>
+                        <div class="ml-40 mt-2">
+                            <button class="cursor-pointer"><img class="w-4 h-4 mt-2" src="./img/heart.png"
+                                    alt=""></button>
+                            <button class="cursor-pointer"><img class="w-4 h-4" src="./img/eye.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#"><img class="w-25 h-25 ml-5 md:w-33 md:h-33 md:ml-10" src="./img/red controler.png"
+                                alt=""></a>
+                    </div>
+                    <div class="md:mt-5 text-sm">
+                        <h1>HAVIT HV_G92 Gamepad</h1>
+                        <p>$120 <span class="text-[rgba(219,68,68,1)]">$160</span></p>
+                        <img src="./img/review-stars.png" alt="stars">
+                    </div>
+                </div>
+
+
+
+                <div class="border-3 border-[#F5F5F5] mt-2 w-45 h-65 md:h-73 md:w-62 justify-between items-center">
+
+                    <div class="flex ">
+                        <div class="">
+                            <button
+                                class="cursor-pointer ml-2 mt-2 bg-[rgba(219,68,68,1)] border-none  w-12 rounded-xs text-white">-35%</button>
+                        </div>
+                        <div class="ml-40 mt-2">
+                            <button class="cursor-pointer"><img class="w-4 h-4 mt-2" src="./img/heart.png"
+                                    alt=""></button>
+                            <button class="cursor-pointer"><img class="w-4 h-4" src="./img/eye.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#"><img class="w-25 h-25 ml-5 md:w-33 md:h-33 md:ml-10" src="./img/key board.png"
+                                alt=""></a>
+                    </div>
+                    <div class="md:mt-5 text-sm">
+                        <h1>AK 900 Wired keyboard</h1>
+                        <p>$960 <span class="text-[rgba(219,68,68,1)]">$1160</span></p>
+                        <img src="./img/review-stars.png" alt="stars">
+                    </div>
+                </div>
+
+
+
+                <div class="border-3 border-[#F5F5F5] mt-2 w-45 h-65 md:h-73 md:w-62 justify-between items-center">
+
+                    <div class="flex ">
+                        <div class="">
+                            <button
+                                class="cursor-pointer ml-2 mt-2 bg-[rgba(219,68,68,1)] border-none  w-12 rounded-xs text-white">-30%</button>
+                        </div>
+                        <div class="ml-40 mt-2">
+                            <button class="cursor-pointer"><img class="w-4 h-4 mt-2" src="./img/heart.png"
+                                    alt=""></button>
+                            <button class="cursor-pointer"><img class="w-4 h-4" src="./img/eye.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#"><img class="w-25 h-25 ml-5 md:w-33 md:h-33 md:ml-10" src="./img/desktop.png"
+                                alt=""></a>
+                    </div>
+                    <div class="md:mt-5 text-sm">
+                        <h1>IPS LCD Gaming Monitor</h1>
+                        <p>$370 <span class="text-[rgba(219,68,68,1)]">$400</span></p>
+                        <img src="./img/review-stars.png" alt="stars">
+                    </div>
+                </div>
+
+
+
+
+                <div class="border-3 border-[#F5F5F5] mt-2 w-45 h-65 md:h-73 md:w-62 justify-between items-center">
+
+                    <div class="flex ">
+                        <div class="">
+                            <button
+                                class="cursor-pointer ml-2 mt-2 bg-[rgba(219,68,68,1)] border-none  w-12 rounded-xs text-white">-25%</button>
+                        </div>
+                        <div class="ml-40 mt-2">
+                            <button class="cursor-pointer"><img class="w-4 h-4 mt-2" src="./img/heart.png"
+                                    alt=""></button>
+                            <button class="cursor-pointer"><img class="w-4 h-4" src="./img/eye.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#"><img class="w-25 h-25 ml-5 md:w-33 md:h-33 md:ml-10" src="./img/chair.png"
+                                alt=""></a>
+                    </div>
+                    <div class="md:mt-5 text-sm">
+                        <h1>S-Series Comfort Chair</h1>
+                        <p>$370 <span class="text-[rgba(219,68,68,1)]">$400</span></p>
+                        <img src="./img/review-stars.png" alt="stars">
+                    </div>
+                </div>
+
+
+
+                <div class="border-3 border-[#F5F5F5] mt-2 w-45 h-65 md:h-73 md:w-62 justify-between items-center">
+
+                    <div class="flex ">
+                        <div class="">
+                            <button
+                                class="cursor-pointer ml-2 mt-2 bg-[rgba(219,68,68,1)] border-none  w-12 rounded-xs text-white">-40%</button>
+                        </div>
+                        <div class="ml-40 mt-2">
+                            <button class="cursor-pointer"><img class="w-4 h-4 mt-2" src="./img/heart.png"
+                                    alt=""></button>
+                            <button class="cursor-pointer"><img class="w-4 h-4" src="./img/eye.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#"><img class="w-25 h-25 ml-5 md:w-33 md:h-33 md:ml-10" src="./img/red controler.png"
+                                alt=""></a>
+                    </div>
+                    <div class="md:mt-5 text-sm">
+                        <h1>HAVIT HV_G92 Gamepad</h1>
+                        <p>$120 <span class="text-[rgba(219,68,68,1)]">$160</span></p>
+                        <img src="./img/review-stars.png" alt="stars">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <button
+            class="border-2 cursor-pointer block mx-auto mt-130 md:mt-10 w-40 h-10 bg-[rgba(219,68,68,1)] text-white rounded-xl">View
+            All
+            Products
+        </button>
+
+        <!-- container2 -->
+        <div class="container2 mt-3 md:mt-10 md:ml-28">
+            <div class="box flex ">
+                <div class="bg-[rgba(219,68,68,1)] ml-3 w-5 h-13 rounded-xl"></div>
+                <div class="items-center justify-center">
+                    <h1 class="ml-4 mt-3.5 text-[rgba(219,68,68,1)]">Categories</h1>
+                </div>
+                <div class="flex ml-45 gap-3 md:ml-280 ">
+                    <button class="cursor-pointer"> <img class="w-10 h-10" src="./img/Left Arrow.png" alt=""></button>
+                    <button class="cursor-pointer"><img class="w-10 h-10" src="./img/Right Arrow.png" alt=""></button>
+                </div>
+            </div>
+
+            <h1 class="text-[1.5rem] ml-3 md:text-[2rem] font-bold ">Browse By Categories</h1>
+
+            <div class="container2-box flex flex-wrap mt-2 w-full h-70 md:mt-10 justify-around">
+                <div class=" border-2 border-[rgba(0, 0, 0, 0.3)] h-30 w-30 mt-5">
+                    <a href="#"><img class="mt-5 ml-7" src="./img/phone1.png" alt="phone"></a>
+                    <a href="#">
+                        <p class="ml-8">Phone</p>
+                    </a>
+                </div>
+                <div class=" border-2 border-[rgba(0, 0, 0, 0.3)] h-30 w-30 mt-5">
+                    <a href="#"><img class="mt-5 ml-7" src="./img/Computer.png" alt="phone"></a>
+                    <a href="#">
+                        <p class="ml-6">Computer</p>
+                    </a>
+                </div>
+                <div class=" border-2 border-[rgba(0, 0, 0, 0.3)] h-30 w-30 mt-5">
+                    <a href="#"><img class="mt-5 ml-7" src="./img/SmartWatch.png" alt="phone"></a>
+                    <a href="#">
+                        <p class="ml-5">SmartWatch</p>
+                    </a>
+                </div>
+                <div class=" border-2 border-[rgba(0, 0, 0, 0.3)] h-30 w-30 mt-5">
+                    <a href="#"><img class="mt-5 ml-7" src="./img/Camera (1).png" alt="phone"></a>
+                    <a href="#">
+                        <p class="ml-7">Camera</p>
+                    </a>
+                </div>
+                <div class=" border-2 border-[rgba(0, 0, 0, 0.3)] h-30 w-30 mt-5">
+                    <a href="#"><img class="mt-5 ml-7" src="./img/Headphone (1).png" alt="phone"></a>
+                    <a href="#">
+                        <p class="ml-5">HeadPhone</p>
+                    </a>
+                </div>
+                <div class=" border-2 border-[rgba(0, 0, 0, 0.3)] h-30 w-30 mt-5">
+                    <a href="#"><img class="mt-5 ml-6" src="./img/Gamepad.png" alt="phone"></a>
+                    <a href="#">
+                        <p class="ml-6">Gaming</p>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <!-- container3 -->
+        <div class="container1 mt-10 md:ml-28 ">
+            <div class="box flex ">
+                <div class="bg-[rgba(219,68,68,1)] ml-3 w-5 h-13 rounded-xl"></div>
+                <div class="items-center justify-center">
+                    <h1 class="ml-4 md:mt-3.5 text-[rgba(219,68,68,1)]">This Month</h1>
+                </div>
+                <button
+                    class="border-2 cursor-pointer block mx-auto mt-3 ml-40  md:ml-280 w-30 h-7 bg-[rgba(219,68,68,1)] text-white rounded-xl">View
+                    All
+
+                </button>
+            </div>
+
+            <h1 class="text-[1.5rem] md:text-[2rem] font-bold ml-4">Best Selling Product</h1>
+
+            <div class="container1-box w-full h-80 flex flex-wrap mt-5 justify-around">
+
+
+                <div class="border-3 border-[#F5F5F5] mt-2 w-45 h-60 md:h-73 md:w-62 justify-between items-center">
+
+                    <div class="flex ">
+                        <div class="">
+                            <button
+                                class="cursor-pointer ml-2 mt-2 bg-[rgba(219,68,68,1)] border-none  w-12 rounded-xs text-white">-35%</button>
+                        </div>
+                        <div class="ml-40 mt-2">
+                            <button class="cursor-pointer"><img class="w-4 h-4 mt-2" src="./heart.png"
+                                    alt=""></button>
+                            <button class="cursor-pointer"><img class="w-4 h-4" src="./eye.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#"><img class="w-25 h-25 ml-5 md:w-33 md:h-33 md:ml-10" src="./jacket.png"
+                                alt=""></a>
+                    </div>
+                    <div class="md:mt-5 text-sm">
+                        <h1>The north coat</h1>
+                        <p>$260 <span class="text-[rgba(219,68,68,1)]">$360</span></p>
+                        <img src="./img/review-stars.png" alt="stars">
+                    </div>
+                </div>
+
+
+
+                <div class="border-3 border-[#F5F5F5] mt-2 w-45 h-60 md:h-73 md:w-62 justify-between items-center">
+
+                    <div class="flex ">
+                        <div class="">
+                            <button
+                                class="cursor-pointer ml-2 mt-2 bg-[rgba(219,68,68,1)] border-none  w-12 rounded-xs text-white">-30%</button>
+                        </div>
+                        <div class="ml-40 mt-2">
+                            <button class="cursor-pointer"><img class="w-4 h-4 mt-2" src="./img/heart.png"
+                                    alt=""></button>
+                            <button class="cursor-pointer"><img class="w-4 h-4" src="./img/eye.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#"><img class="w-25 h-25 ml-5 md:w-33 md:h-33 md:ml-10" src="./img/bag.png" alt=""></a>
+                    </div>
+                    <div class="md:mt-5 text-sm">
+                        <h1>Gucci duffle bag</h1>
+                        <p>$960 <span class="text-[rgba(219,68,68,1)]">$1160</span></p>
+                        <img src="./img/review-stars.png" alt="stars">
+                    </div>
+                </div>
+
+
+
+
+                <div class="border-3 border-[#F5F5F5] mt-2 w-45 h-60 md:h-73 md:w-62 justify-between items-center">
+
+                    <div class="flex ">
+                        <div class="">
+                            <button
+                                class="cursor-pointer ml-2 mt-2 bg-[rgba(219,68,68,1)] border-none  w-12 rounded-xs text-white">-25%</button>
+                        </div>
+                        <div class="ml-40 mt-2">
+                            <button class="cursor-pointer"><img class="w-4 h-4 mt-2" src="./img/heart.png"
+                                    alt=""></button>
+                            <button class="cursor-pointer"><img class="w-4 h-4" src="./img/eye.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#"><img class="w-25 h-25 ml-5 md:w-33 md:h-33 md:ml-10"
+                                src="./img/gammaxx-l240-argb-1-500x500 1.png" alt=""></a>
+                    </div>
+                    <div class="md:mt-5 text-sm">
+                        <h1>CPU Cooler</h1>
+                        <p>$160 <span class="text-[rgba(219,68,68,1)]">$170</span></p>
+                        <img src="./img/review-stars.png" alt="stars">
+                    </div>
+                </div>
+
+
+
+                <div class="border-3 border-[#F5F5F5] mt-2 w-45 h-60 md:h-73 md:w-62 justify-between items-center">
+
+                    <div class="flex ">
+                        <div class="">
+                            <button
+                                class="cursor-pointer ml-2 mt-2 bg-[rgba(219,68,68,1)] border-none  w-12 rounded-xs text-white">-40%</button>
+                        </div>
+                        <div class="ml-40 mt-2">
+                            <button class="cursor-pointer"><img class="w-4 h-4 mt-2" src="./img/heart.png"
+                                    alt=""></button>
+                            <button class="cursor-pointer"><img class="w-4 h-4" src="./img/eye.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#"><img class="w-25 h-25 ml-5 md:w-33 md:h-33 md:ml-10" src="./img/book self.png"
+                                alt=""></a>
+                    </div>
+                    <div class="md:mt-5 text-sm">
+                        <h1>HAVIT HV_G92 Gamepad</h1>
+                        <p>$360</p>
+                        <img src="./img/review-stars.png" alt="stars">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- container4 -->
+        <div class="flex w-full h-40 mt-50 md:w-340 md:h-120 md:ml-28 md:mt-15 bg-black">
+            <div class="flex flex-col w-40  bg-black md:w-150 md:h-120 justify-center ">
+                <p class="ml-5 md:ml-20 text-sm text-[#00FF66]">Categories</p>
+                <h1 class="ml-5 md:ml-20 text-[1rem] md:text-[2.5rem] text-white">Enhance Your <br>Music Experiance</h1>
+                <button type="button"
+                    class="ml-5 mt-2 w-20 h-5 text-sm md:ml-20 md:mt-10 cursor-pointer bg-[#00FF66] text-white md:w-30 md:h-10">Buy
+                    Now!</button>
+            </div>
+            <div class="bg-black  ">
+                <img class="ml-15 mt-5 w-40 h-30 md:w-150 md:h-100 md:mt-15" src="./black speaker.png" alt="">
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('hidden');
+        }
+    </script>
+</body>
+
+</html>
