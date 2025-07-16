@@ -43,14 +43,14 @@
                             placeholder="Search">
                         <img class="w-4 h-4" src="./img/search.png" alt="">
                     </div>
-                    <a href="#"><img class="w-5 h-5 ml-5" src="./img/heart.png" alt="heart"></a>
-                    <a href="#"><img class="w-6 h-6 ml-4" src="./img/Cart.png" alt="cart"></a>
+                    <a href="#"><img class="w-5 h-5" src="./img/heart.png" alt="heart"></a>
+                    <a href="#"><img class="w-6 h-6" src="./img/Cart.png" alt="cart"></a>
                 </div>
 
 
-                <div class="relative">
+                <div class="relative ">
                     <button class="md:hidden" onclick="toggleMenu()">
-                        <ion-icon class="ml-5 text-3xl" name="menu-outline"></ion-icon>
+                        <ion-icon class="text-3xl" name="menu-outline"></ion-icon>
                     </button>
                     <div id="mobileMenu"
                         class="absolute right-0 mt-2 bg-white shadow-lg rounded-lg py-2 w-40 hidden z-50">
@@ -61,8 +61,8 @@
                     </div>
                 </div>
 
-                <div class="">
-                    <ul class="hidden sm:flex gap-8 items-center">
+                <div class="overflow-hidden">
+                    <ul class="hidden sm:flex  gap-8 items-center">
                         <li class="hover:text-gray-400"><a href="#">Home</a></li>
                         <li class="hover:text-gray-400"><a href="#">Contact</a></li>
                         <li class="hover:text-gray-400"><a href="#">About</a></li>
@@ -71,7 +71,7 @@
                 </div>
 
 
-                <div class="hidden sm:flex items-center space-x-4">
+                <div class="hidden sm:flex items-center space-x-4 overflow-hidden">
                     <div class="flex bg-[rgba(245,245,245,1)] rounded-xl flex-1 max-w-xl px-4 py-2">
                         <input class="flex-1 bg-transparent outline-none" type="search"
                             placeholder="What are you looking for">
