@@ -142,7 +142,7 @@
 
             <h1 class=" text-[1.5rem] md:text-[2rem] font-bold ml-4">Flash Sales</h1>
 
-            <div class="container1-box w-full h-210 flex flex-wrap mt-5 md:h-80 justify-around">
+            <div class="container1-box w-full h-210 flex flex-wrap mt-5 md:h-83 justify-around">
                 <div class="border-3 border-[#F5F5F5] mt-2 w-45 h-65 md:h-73 md:w-62 justify-between items-center">
 
                     <div class="flex ">
@@ -157,14 +157,16 @@
                         </div>
                     </div>
                     <div>
-                        <a href="#"><img class="w-25 h-25 ml-5 md:w-33 md:h-33 md:ml-10" src="./img/red controler.png"
-                                alt=""></a>
+                        <a href="#"><img id="img1" class="w-25 h-25 ml-5 md:w-33 md:h-33 md:ml-10"
+                                src="./img/red controler.png" alt=""></a>
                     </div>
                     <div class="md:mt-5 text-sm">
                         <h1>HAVIT HV_G92 Gamepad</h1>
                         <p>$120 <span class="text-[rgba(219,68,68,1)] line-through">$160</span></p>
                         <img src="./img/review-stars.png" alt="stars">
                     </div>
+                    <button onclick="document.getElementById('img1').src=('./img/laptop.png')" id="btn1"
+                        class=" md:mt-5 cursor-pointer border-2 hover:text-gray-500">click me</button>
                 </div>
 
 
@@ -183,14 +185,16 @@
                         </div>
                     </div>
                     <div>
-                        <a href="#"><img class="w-25 h-25 ml-5 md:w-33 md:h-33 md:ml-10" src="./img/key board.png"
-                                alt=""></a>
+                        <a href="#"><img id="img2" class=" w-25 h-25 ml-5 md:w-33 md:h-33 md:ml-10"
+                                src="./img/key board.png" alt=""></a>
                     </div>
                     <div class="md:mt-10 text-sm">
                         <h1>AK 900 Wired keyboard</h1>
                         <p>$960 <span class="text-[rgba(219,68,68,1)] line-through">$1160</span></p>
                         <img src="./img/review-stars.png" alt="stars">
                     </div>
+                    <button onclick="document.getElementById('img2').src=('./img/jacket.png')" id="btn2"
+                        class=" md:mt-5 cursor-pointer border-2 hover:text-gray-500">click me</button>
                 </div>
 
 
@@ -209,14 +213,17 @@
                         </div>
                     </div>
                     <div>
-                        <a href="#"><img class="w-25 h-25 ml-5 md:w-33 md:h-33 md:ml-10" src="./img/desktop.png"
-                                alt=""></a>
+                        <a href="#"><img id="img3" class=" w-25 h-25 ml-5 md:w-33 md:h-33 md:ml-10"
+                                src="./img/desktop.png" alt=""></a>
                     </div>
                     <div class="md:mt-5 text-sm">
                         <h1>IPS LCD Gaming Monitor</h1>
                         <p>$370 <span class="text-[rgba(219,68,68,1)] line-through">$400</span></p>
                         <img src="./img/review-stars.png" alt="stars">
                     </div>
+                    <button onclick="document.getElementById('img3').src=('./img/shoes.png')" id="btn3"
+                        class=" md:mt-5 cursor-pointer border-2 hover:text-gray-500">click me</button>
+
                 </div>
 
 
@@ -236,14 +243,17 @@
                         </div>
                     </div>
                     <div>
-                        <a href="#"><img class="w-25 h-25 ml-5 md:w-33 md:h-33 md:ml-10" src="./img/chair.png"
-                                alt=""></a>
+                        <a href="#"><img id="img4" class=" w-25 h-25 ml-5 md:w-33 md:h-33 md:ml-10"
+                                src="./img/chair.png" alt=""></a>
                     </div>
                     <div class="md:mt-5 text-sm">
                         <h1>S-Series Comfort Chair</h1>
                         <p>$370 <span class="text-[rgba(219,68,68,1)] line-through">$400</span></p>
                         <img src="./img/review-stars.png" alt="stars">
                     </div>
+                    <button onclick="document.getElementById('img4').src=('./img/camera1.png')" id="btn4"
+                        class=" md:mt-5 cursor-pointer border-2 hover:text-gray-500">click me</button>
+
                 </div>
 
 
@@ -262,14 +272,17 @@
                         </div>
                     </div>
                     <div>
-                        <a href="#"><img class="w-25 h-25 ml-5 md:w-33 md:h-33 md:ml-10" src="./img/red controler.png"
-                                alt=""></a>
+                        <a href="#"><img id="img5" class=" w-25 h-25 ml-5 md:w-33 md:h-33 md:ml-10"
+                                src="./img/red controler.png" alt=""></a>
                     </div>
                     <div class="md:mt-5 text-sm">
                         <h1>HAVIT HV_G92 Gamepad</h1>
                         <p>$120 <span class="text-[rgba(219,68,68,1)] line-through">$160</span></p>
                         <img src="./img/review-stars.png" alt="stars">
                     </div>
+                    <button onclick="document.getElementById('img5').src=('./img/jacket1.png')" id="btn5"
+                        class=" md:mt-5 cursor-pointer border-2 hover:text-gray-500">click me</button>
+
                 </div>
 
 
@@ -791,10 +804,6 @@
         </div>
 
 
-
-
-
-
         <!-- container8 -->
         <footer>
             <div class="flex flex-wrap w-full justify-around bg-black h-110 md:h-90 text-white md:mt-30">
@@ -802,7 +811,7 @@
                 <div class="flex flex-col mt-10 gap-3 md:mt-20">
 
                     <h3 class="font-bold text-2xl">Exclusive</h3>
-                    <p><a  class="font-bold" href="#">Subscribe</a></p>
+                    <p><a class="font-bold" href="#">Subscribe</a></p>
                     <p><a class="text-sm" href="#">Get 10% 0ff your first order</a></p>
 
                     <div class=" md:w-50 w-30 md:h-10 flex bg-black  border-white border-2">
@@ -852,15 +861,14 @@
 
 
     </div>
-
-
-
     <script>
         function toggleMenu() {
             const menu = document.getElementById('mobileMenu');
             menu.classList.toggle('hidden');
         }
     </script>
+
+
 </body>
 
 </html>
